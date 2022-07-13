@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.globallogic.mavenprojectone.Testevenodd
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.globallogic.mavenprojectone.Testevenodd
+testexcept(com.globallogic.mavenprojectone.Testevenodd)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method assertThrows(Class<ArithmeticException>, () -> {}) is undefined for the type Testevenodd
+
+	at com.globallogic.mavenprojectone.Testevenodd.testexcept(Testevenodd.java:20)
+
