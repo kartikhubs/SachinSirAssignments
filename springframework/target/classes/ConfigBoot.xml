@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class="newspring.Boot" name="Apptwo">
+
+   <property name="name">
+   <value>Sachin</value>
+   </property>
+   
+   <property name="phonesl">
+   <list>
+      <value>9131087406</value>
+      <value>838373782</value>
+      <value>33433434</value>
+   </list>
+   </property>
+  
+
+   
+   
+   <property name="address">
+   
+   <set>
+   
+    <value>JABALPUR</value>
+    <value>LONDON</value>
+    <value>INDIA</value>
+   </set>
+   
+  
+   
+   </property>
+   
+   <property name="courses">
+     <map>
+        <entry key="Java" value="2months"></entry>
+        <entry key="C#" value="3months"></entry>
+     </map>
+   </property>
+</bean>
+
+</beans>
